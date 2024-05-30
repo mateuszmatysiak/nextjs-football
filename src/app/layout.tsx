@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Karla } from "next/font/google";
 import "./globals.css";
+import { Menu } from "@/components/Menu";
+import { Footer } from "@/components/Footer";
 
 const karla = Karla({ subsets: ["latin"] });
 
@@ -14,7 +16,13 @@ export default function RootLayout(props: React.PropsWithChildren) {
 
   return (
     <html lang="en">
-      <body className={karla.className}>{children}</body>
+      <body className={karla.className}>
+        <div>
+          <Menu />
+          {children}
+          <Footer />
+        </div>
+      </body>
     </html>
   );
 }
