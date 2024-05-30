@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --sea-9: #141d22;
+  --sea-9-95: #141d22f2;
+  --sea-9-50: #141d2280;
+  --sea-9-30: #141d224d;
+
+  --sea-7: #182223;
+  --sea-7-75: #182223bf;
+  --sea-7-50: #18222380;
+
+  --sea-5: #1a262a;
+  --sea-5-95: #1a262af2;
+
+  --sea-4: #25343a;
+  --sea-4-80: #25343acc;
+  --sea-4-50: #25343a80;
+
+  --sea-2: #395966;
+
+  --grey-5: #6b7280;
+  --grey-4: #9ca3af;
+  --grey-3: #d1d5db;
+
+  --blue-6: #2563eb;
+  --blue-5: #3b82f6;
+  --blue-4: #60a5fa;
+
+  --red-6: #dc2626;
+  --red-4: #b8393b;
+
+  --green-4: #3e8a4c;
+
+  --white: #ffffff;
+
+  --max-layout-width: 1024px;
+}
+
+body {
+  background-color: var(--sea-9);
+  color: var(--white);
+}
